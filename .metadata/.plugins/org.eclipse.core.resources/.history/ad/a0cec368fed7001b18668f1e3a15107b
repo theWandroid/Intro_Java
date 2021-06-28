@@ -116,7 +116,7 @@ public class Main {
 		
 		System.out.println("Cuantos grados centigrados quieres introducir?");
 		 int centigrados = sc.nextInt();
-		 float farenheirt = (centigrados*9/5)+32;
+		 int farenheirt = (centigrados*9/5)+32
 			 
 		 System.out.println(centigrados +" grados centigrados son "+ farenheirt  + " Farenheirt.");
 		 

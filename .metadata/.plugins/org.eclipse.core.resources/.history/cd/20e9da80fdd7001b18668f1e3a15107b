@@ -79,7 +79,7 @@ public class Main {
 	
 	
 			*/
-		
+		5
 		int day = 1;
 		int dayHours = 24;
 		int minutesHour = 60;
@@ -116,9 +116,8 @@ public class Main {
 		
 		System.out.println("Cuantos grados centigrados quieres introducir?");
 		 int centigrados = sc.nextInt();
-		 float farenheirt = (centigrados*9/5)+32;
 			 
-		 System.out.println(centigrados +" grados centigrados son "+ farenheirt  + " Farenheirt.");
+		 System.out.println(centigrados +" son "+ (centigrados*9/5)+32 + " Farenheirt.");
 		 
 		
 	}
