@@ -132,7 +132,6 @@ public class Main {
 		System.out.println("Suspenso!!!");
 		}   */
 		
-		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Introduce un numero");
 		int n = sc.nextInt();

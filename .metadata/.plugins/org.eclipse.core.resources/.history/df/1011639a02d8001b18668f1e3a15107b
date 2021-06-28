@@ -132,7 +132,6 @@ public class Main {
 		System.out.println("Suspenso!!!");
 		}   */
 		
-		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Introduce un numero");
 		int n = sc.nextInt();
@@ -147,11 +146,6 @@ public class Main {
 			System.out.println(n+ "Es 0");
 		}else if( n > 0) {
 			System.out.println(n + " Es positivo");
-			if(n > 100){
-				System.out.println(n + " Es mayor que 100");
-			}else {
-				System.out.println(n + " Es menor que 100");
-			}
 		}else {
 			System.out.println(n + " Es negativo");
 		}
