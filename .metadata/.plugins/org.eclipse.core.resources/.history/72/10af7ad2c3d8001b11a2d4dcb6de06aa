@@ -1,0 +1,10 @@
+package com.andrei;
+
+public class Random {
+	
+	public void initRandom() {
+		
+		int a = (int) Math.random() * 6;
+		System.out.println("El número aleatorio es "+ a);
+	}
+}

@@ -1,0 +1,9 @@
+package com.andrei;
+
+public class Random {
+	
+	public void initRandom() {
+		
+		int a = (int) Math.random() * 6;
+	}
+}

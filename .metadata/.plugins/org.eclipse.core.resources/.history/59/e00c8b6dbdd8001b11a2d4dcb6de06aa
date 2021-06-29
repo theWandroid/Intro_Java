@@ -1,0 +1,136 @@
+package com.andrei;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		/*
+		 * 
+		 * int n = 8;
+		 * 
+		 * // TODO Auto-generated method stub System.out.println("Hola Mundo!!!");
+		 * System.out.println();
+		 * 
+		 */
+		// Ejercicio de variables
+
+		/*
+		 * 
+		 * 
+		 * String saludo = "Buenos dias "; String nombre = "Juan";
+		 * 
+		 * System.out.println(saludo + nombre);
+		 * 
+		 * 
+		 * 1. Escribir un programa que calcule el número de segundos que existen en un
+		 * día. Como todo el mundo sabe, un día tiene 86400 segundos.
+		 * 
+		 * 
+		 */
+
+		int day = 1;
+		int dayHours = 24;
+		int minutesHour = 60;
+		int secondsMinute = 60;
+		int seconds = day * dayHours * minutesHour * secondsMinute;
+		System.out.println(seconds);
+
+		/*
+		 * 2. Hacer un conversor de euros a dólares. El usuario introduce una cantidad
+		 * de euros y obtiene su valor en dólares. Supondremos que un euro son dos
+		 * dólares
+		 * 
+		 * Scanner sc = new Scanner(System.in);
+		 * 
+		 * // entrada de una cadena String name = sc.nextLine();
+		 * 
+		 * // entrada de un carácter char gender = sc.next().charAt(0);
+		 * 
+		 * // Entrada de datos numéricos // byte, short y float int age = sc.nextInt();
+		 * long mobileNo = sc.nextLong(); double average = sc.nextDouble();
+		 * 
+		 * 
+		 * Scanner sc = new Scanner(System.in);
+		 * System.out.println("Cuantos euros quieres introducir?"); int euros =
+		 * sc.nextInt();
+		 * 
+		 * 
+		 * System.out.println(euros +" son "+ euros*2 + " dolares.");
+		 * 
+		 * Scanner sc = new Scanner(System.in);
+		 * 
+		 * System.out.println("Cuantos grados centigrados quieres introducir?"); int
+		 * centigrados = sc.nextInt(); float farenheirt = (centigrados*9/5)+32;
+		 * 
+		 * System.out.println(centigrados +" grados centigrados son "+ farenheirt +
+		 * " Farenheirt.");
+		 * 
+		 * Scanner sc = new Scanner(System.in);
+		 * System.out.println("Que nota ha obtenido?"); int nota = sc.nextInt();
+		 * 
+		 * if(nota == 5) { System.out.println("Aprobado por los pelos"); }else if(nota >
+		 * 5) { System.out.println("Aprobado!!!"); }else {
+		 * System.out.println("Suspenso!!!"); }
+		 * 
+		 * 
+		 * Scanner sc = new Scanner(System.in);
+		 * System.out.println("Introduce un numero"); int n = sc.nextInt();
+		 * 
+		 * if(n % 2 == 0) { System.out.println(n+ "Es par"); }else {
+		 * System.out.println(n + " Es impar"); }
+		 * 
+		 * if(n == 0) { System.out.println(n+ "Es 0"); }else if( n > 0) {
+		 * System.out.println(n + " Es positivo"); if(n > 100){ System.out.println(n +
+		 * " Es mayor que 100"); }else { System.out.println(n + " Es menor que 100"); }
+		 * }else { System.out.println(n + " Es negativo"); }
+		 * 
+		 * if(n % 5 == 0) { System.out.println(n+ "Es multiple de 5"); }else if(n % 10
+		 * == 0) { System.out.println(n + " Es multiple de 10"); }else {
+		 * System.out.println(n + " Es negativo"); }
+		 */
+
+		// operador ternario
+
+		// Positivo o negativo
+
+		int a = -5;
+
+		String signo = (a >= 0) ? a + " es positivo" : a + " es negativo";
+
+		System.out.println(signo);
+
+		// Par o impar
+
+		int i = 2;
+		System.out.println(i + " es " + (i % 2 == 0 ? " es par" : " es impar"));
+		System.out.println((i % 2 == 0) ? i + " es par" : i + " es impar");
+
+		// Comparar cadenas de texto
+
+		String cadena1 = new String("Hola");
+		String cadena2 = new String("Hola");
+		String cadena3 = "Adios";
+		String cadena4 = "Adios";
+
+		if (cadena1.equals(cadena2)) {
+			System.out.println("Son iguales usando el equals");
+		}
+		// esta comparando las direcciones de memoria
+		if (cadena1 == cadena2) {
+			System.out.println("Son iguales usando el == ");
+		}
+		if (cadena3 == cadena4) {
+			System.out.println("Son iguales usando el == cuando la cadena es creada en un pool");
+		}
+
+		Variables initVariables = new Variables();
+
+		//initVariables.variables();
+		//initVariables.ejercicios();
+		
+		
+
+	}
+
+}

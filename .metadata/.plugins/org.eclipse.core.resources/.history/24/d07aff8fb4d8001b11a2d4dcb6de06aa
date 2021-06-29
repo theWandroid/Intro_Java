@@ -1,0 +1,36 @@
+package com.andrei;
+
+import java.util.Scanner;
+
+public class Calculadora {
+
+	public void introducir() {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Que quieres hacer?");
+		System.out.println("1. Sumar");
+		System.out.println("2. Restar");
+		System.out.println("3. Multiplicar");
+		System.out.println("4. Diviidir");
+		System.out.println("Introduce una de las cuatro opciones");
+		
+	}
+	
+	
+	public void sumar() {
+		
+	}
+	
+	public void restar() {
+		
+	}
+	
+	public void dividir() {
+		
+	}
+	
+	public void multiplicar() {
+		
+	}
+	
+}

@@ -1,0 +1,9 @@
+package com.andrei;
+
+public class Random {
+	
+	piblic void initRandom() {
+		
+	}
+
+}

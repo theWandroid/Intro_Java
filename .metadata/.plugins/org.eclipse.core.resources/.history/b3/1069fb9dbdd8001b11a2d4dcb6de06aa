@@ -1,0 +1,73 @@
+package com.andrei;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		/*
+		 * 
+		 * int n = 8;
+		 * 
+		 * // TODO Auto-generated method stub System.out.println("Hola Mundo!!!");
+		 * System.out.println();
+		 * 
+		 */
+		// Ejercicio de variables
+
+		/*
+		 * 
+		 * 
+		 * String saludo = "Buenos dias "; String nombre = "Juan";
+		 * 
+		 * System.out.println(saludo + nombre);
+		 * 
+		 * 
+		 *
+	
+		 */
+
+		// operador ternario
+
+		// Positivo o negativo
+
+		int a = -5;
+
+		String signo = (a >= 0) ? a + " es positivo" : a + " es negativo";
+
+		System.out.println(signo);
+
+		// Par o impar
+
+		int i = 2;
+		System.out.println(i + " es " + (i % 2 == 0 ? " es par" : " es impar"));
+		System.out.println((i % 2 == 0) ? i + " es par" : i + " es impar");
+
+		// Comparar cadenas de texto
+
+		String cadena1 = new String("Hola");
+		String cadena2 = new String("Hola");
+		String cadena3 = "Adios";
+		String cadena4 = "Adios";
+
+		if (cadena1.equals(cadena2)) {
+			System.out.println("Son iguales usando el equals");
+		}
+		// esta comparando las direcciones de memoria
+		if (cadena1 == cadena2) {
+			System.out.println("Son iguales usando el == ");
+		}
+		if (cadena3 == cadena4) {
+			System.out.println("Son iguales usando el == cuando la cadena es creada en un pool");
+		}
+
+		Variables initVariables = new Variables();
+
+		//initVariables.variables();
+		//initVariables.ejercicios();
+		
+		
+
+	}
+
+}
