@@ -30,8 +30,6 @@ public class Main {
 
 		Metodos metodos = new Metodos();
 		metodos.calcAreaRectangulo(12, 20);
-		metodos.calcAreaTriangulo(15, 7);
-		
 	}
 
 }

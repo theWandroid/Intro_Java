@@ -1,0 +1,17 @@
+package com.andrei;
+
+public class MetodosCadenas {
+
+	
+	void subString(String name, int init, int end) {
+		System.out.println(name.substring(init, end));
+	}
+	
+	void indexOf(String name, char letra) {
+		System.out.println(name.indexOf(letra));
+	}
+	
+	void toUpperCase() {
+		
+	}
+}

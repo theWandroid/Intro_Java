@@ -14,7 +14,7 @@ public class Metodos {
 	
 	void calcAreaTriangulo(int alto, int base) {
 		int areaTriangulo = alto * base/2;
-		System.out.println("El area del triangulo con " + " altura " + alto + " y base " + base + " es " + areaTriangulo);
+		System.out.println(El area del triangulo con " + " altura " + alto + " y base " + ancho + " es " + areaRectangulo);
 	}
 
 }

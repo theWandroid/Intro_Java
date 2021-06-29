@@ -1,0 +1,13 @@
+package com.andrei;
+
+public class Metodos {
+	
+	void initMetodos() {
+		
+	}
+	
+	void calcRectangulo(int alto, int ancho) {
+		
+	}
+
+}

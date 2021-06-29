@@ -29,9 +29,7 @@ public class Main {
 		//metCad.su
 
 		Metodos metodos = new Metodos();
-		metodos.calcAreaRectangulo(12, 20);
-		metodos.calcAreaTriangulo(15, 7);
-		
+		metodos.calcRectangulo(12, 20);
 	}
 
 }

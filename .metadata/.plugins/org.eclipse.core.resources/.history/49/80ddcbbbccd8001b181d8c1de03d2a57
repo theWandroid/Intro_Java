@@ -26,12 +26,8 @@ public class Main {
 		
 		MetodosCadenas metCad = new MetodosCadenas();
 		
-		//metCad.su
+		metCad.su
 
-		Metodos metodos = new Metodos();
-		metodos.calcAreaRectangulo(12, 20);
-		metodos.calcAreaTriangulo(15, 7);
-		
 	}
 
 }

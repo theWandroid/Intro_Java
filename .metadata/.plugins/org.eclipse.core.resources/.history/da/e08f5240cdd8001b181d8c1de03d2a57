@@ -1,0 +1,14 @@
+package com.andrei;
+
+public class Metodos {
+	
+	void initMetodos() {
+		
+	}
+	
+	void calcRectangulo(int alto, int ancho) {
+		int areaRectangulo = alto *2 + ancho*2;
+		System.out.println(areaRectangulo);
+	}
+
+}

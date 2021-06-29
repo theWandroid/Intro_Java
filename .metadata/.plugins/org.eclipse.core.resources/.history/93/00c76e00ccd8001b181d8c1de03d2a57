@@ -23,15 +23,7 @@ public class Main {
 		System.out.println(a);
 		}
 		
-		
-		MetodosCadenas metCad = new MetodosCadenas();
-		
-		//metCad.su
 
-		Metodos metodos = new Metodos();
-		metodos.calcAreaRectangulo(12, 20);
-		metodos.calcAreaTriangulo(15, 7);
-		
 	}
 
 }

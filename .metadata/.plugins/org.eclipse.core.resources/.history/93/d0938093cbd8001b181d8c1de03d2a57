@@ -1,0 +1,22 @@
+package com.andrei;
+
+public class MetodosCadenas {
+
+	
+	void subString(String name, int init, int end) {
+		System.out.println(name.substring(init, end));
+	}
+	
+	//busca una letra dentro de la palabra que le pasamos por parametro
+	void indexOf(String name, char letra) {
+		System.out.println(name.indexOf(letra));
+	}
+	
+	void toUpperCase(String name) {
+		System.out.println(name.toUpperCase());
+	}
+	
+	void toLowerCase() {
+		System.out.println();
+	}
+}
