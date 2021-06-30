@@ -1,0 +1,13 @@
+package com.andrei;
+
+public class Herencia {
+
+}
+
+public class Padre() {
+	
+}
+
+public class Hijo() {
+	
+}

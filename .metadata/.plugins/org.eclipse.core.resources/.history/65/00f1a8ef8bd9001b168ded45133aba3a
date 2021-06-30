@@ -1,0 +1,13 @@
+package com.andrei;
+
+public class Constructores {
+	
+	String nombre;
+	int edad;
+	
+	Constructores(Strting name, int age){
+		this.nombre = name;
+		this.edad = age;
+	}
+
+}

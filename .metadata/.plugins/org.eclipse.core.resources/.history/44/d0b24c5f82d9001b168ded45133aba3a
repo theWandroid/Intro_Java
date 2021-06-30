@@ -27,21 +27,12 @@ public class Main {
 		MetodosCadenas metCad = new MetodosCadenas();
 		
 		//metCad.su
-/*
+
 		Metodos metodos = new Metodos();
 		metodos.calcAreaRectangulo(12, 20);
 		metodos.calcAreaTriangulo(15, 7);
 		Return returnEjercicios = new Return();
 		returnEjercicios.calcCircunferencia();
-		*/
-		//StaticCalculadora.introducir();
-		
-		Constructores estudiante = new Constructores("Tatiana", 27);
-		System.out.println(estudiante.nombre + ", " +estudiante.edad);
-		
-		Constructores estudiante2 = new Constructores("Andrei", 28);
-		System.out.println(estudiante2.nombre + ", " +estudiante2.edad);
-		
 	}
 
 }

@@ -1,0 +1,22 @@
+package com.andrei;
+impor java.util.Scanner;
+
+public class StaticCalculadora {
+	
+	static void Sumar() {
+		
+	}
+	
+	static void Restar() {
+		
+	}
+	
+	static void Multiplicar() {
+		
+	}
+	
+	static void Dividir() {
+		
+	}
+
+}

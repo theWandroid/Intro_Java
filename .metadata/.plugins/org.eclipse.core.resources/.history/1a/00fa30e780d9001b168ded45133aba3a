@@ -1,0 +1,64 @@
+package com.andrei;
+
+import java.util.Scanner;
+
+
+public class StaticCalculadora {
+	
+	static float a = 0;
+	static float b = 0;
+	Scanner sc = new Scanner(System.in);
+	
+	static void introducir() {
+		
+		System.out.println("Introduce el primer numero");
+		a = sc.nextFloat();
+		System.out.println("Introduce el segundo numero");
+		b = sc.nextInt();
+	}
+	
+	static void elegirOperacion() {
+		System.out.println("Que operación quieres realizar?");
+		System.out.println("1. Sumar");
+		System.out.println("2. Restar");
+		System.out.println("3. Multiplicar");
+		System.out.println("4. Diviidir");
+		System.out.println("Introduce una de las cuatro opciones");
+		
+		int operacion = sc.nextInt();
+		switch(operacion) {
+		case 1:
+			System.out.println("Has elegido sumar");
+			break;
+		case 2: 
+			System.out.println("Has elegido restar");
+			break;
+		case 3: 
+			System.out.println("Has elegido multiplicar");
+			break;
+		}else if(operacion == 4) {
+			System.out.println("Has elegido dividir");
+		}else {
+			System.out.println("Operacion no contemplada");
+		}
+		}
+	}
+
+	
+	static float Sumar() {
+	return a + b;
+	}
+	
+	static float restar() {
+		return a - b;
+	}
+	
+	static float Multiplicar() {
+		return a * b;
+	}
+	
+	static return Dividir() {
+		return a / b;
+	}
+
+}

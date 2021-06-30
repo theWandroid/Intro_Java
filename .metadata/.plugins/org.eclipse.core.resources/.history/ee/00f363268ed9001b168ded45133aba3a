@@ -1,0 +1,7 @@
+package com.andrei;
+import java.util.ArrayList;
+
+public class Colecciones {
+
+	public ArrayList<HerenciaHijo> hijos = new ArrayList<HerenciaHijo>();
+}

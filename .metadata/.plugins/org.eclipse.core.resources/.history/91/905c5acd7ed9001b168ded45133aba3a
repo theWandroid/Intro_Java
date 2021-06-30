@@ -1,0 +1,30 @@
+package com.andrei;
+
+import java.util.Scanner;
+
+impor java.util.Scanner;
+
+public class StaticCalculadora {
+	
+
+	
+	static void Sumar() {
+		Scanner sc = new Scanner();
+		System.out.println("Introduce el primer numero");
+		int a = sc.nextInt();
+		System.out.println("Introduce el segundo numero");
+	}
+	
+	static void Restar() {
+		
+	}
+	
+	static void Multiplicar() {
+		
+	}
+	
+	static void Dividir() {
+		
+	}
+
+}

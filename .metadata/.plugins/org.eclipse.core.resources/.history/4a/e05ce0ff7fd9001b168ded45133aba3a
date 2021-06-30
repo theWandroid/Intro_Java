@@ -1,0 +1,36 @@
+package com.andrei;
+
+import java.util.Scanner;
+
+
+public class StaticCalculadora {
+	
+	static float a = 0;
+	static float b = 0;
+	
+	static void introducir() {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Introduce el primer numero");
+		a = sc.nextFloat();
+		System.out.println("Introduce el segundo numero");
+		b = sc.nextInt();
+	}
+
+	
+	static float Sumar() {
+	return a + b;
+	}
+	
+	static float restar() {
+		
+	}
+	
+	static float Multiplicar() {
+		
+	}
+	
+	static return Dividir() {
+		
+	}
+
+}
