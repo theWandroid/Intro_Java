@@ -1,5 +1,4 @@
 package com.andrei;
-import java.util.Scanner;
 
 public class Metodos {
 
@@ -17,7 +16,5 @@ public class Metodos {
 		int areaTriangulo = alto * base/2;
 		System.out.println("El area del triangulo con " + " altura " + alto + " y base " + base + " es " + areaTriangulo);
 	}
-	
 
-	
 }

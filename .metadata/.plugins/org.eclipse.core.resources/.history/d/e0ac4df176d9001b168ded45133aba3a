@@ -18,6 +18,20 @@ public class Metodos {
 		System.out.println("El area del triangulo con " + " altura " + alto + " y base " + base + " es " + areaTriangulo);
 	}
 	
-
+	void clacCircunferencia(int radio) {
+		
+		
+	}
 	
+	void calAreaCircunferencia() {
+		
+	}
+	
+	void calcPerimetroCircunferencia() {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Introduce el area de la circunferencia");
+		int area = sc.nextInt();
+	}
+
 }

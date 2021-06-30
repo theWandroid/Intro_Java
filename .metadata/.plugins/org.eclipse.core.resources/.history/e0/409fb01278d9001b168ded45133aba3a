@@ -31,8 +31,7 @@ public class Main {
 		Metodos metodos = new Metodos();
 		metodos.calcAreaRectangulo(12, 20);
 		metodos.calcAreaTriangulo(15, 7);
-		Return returnEjercicios = new Return();
-		returnEjercicios.calcCircunferencia();
+		metodos.calcCircunferencia(5);
 	}
 
 }
